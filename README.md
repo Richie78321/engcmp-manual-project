@@ -7,12 +7,12 @@ An open source manual for contributing to or maintaining an open source project.
 # Contributing to an Open Source Project
 
 Once you find an issue or project that you'd like to contribute to, it's time to learn how exactly you can go about contributing. The first step to contributing is exploring the source code. Source code is the original code for the project made and maintained by the creator. This is the official version of the project’s code.
-### Licensing
+#### Licensing
 Depending on the licensing of the code it will tell you what you can do with the source code. This could determine whether you can sell your version or publish it. 
 
 Many open source projects are what is called copyleft. This means that you must maintain the same licensing on your project as the main project. Once you understand what you're allowed to do, it's time to explore.
 
-### Getting Source Code
+#### Getting Source Code
 You're going to want to create a local copy of the project you'd like to contribute to on your machine. This is the best way to explore the code and test the project for yourself. 
 
 #### Git
@@ -27,7 +27,7 @@ Go to the repository page of the project you are interested in. There will be a 
 
 Click the ‘CODE’ button and find the link to the repository. Copy this link onto your clipboard. Then you're going to want to open your command line or terminal. This depends on your Operating System. MacOS and Linux use the Unix shell and Windows uses the Command Prompt. The process is the same for both. 
 
-###### Example
+__Example__
 ![Example of code button on Github](/images/github-example.png "Example on Github")
 
 Open your OS’s shell. You’re going to want to change directories (folders) to where you want to put the project folder. To do this type ‘cd’ then the subsequent folders. For example, if you want to put it on your desktop, you can input ‘cd Desktop’. If you have a folder on your desktop you’d like to put it in you can do ‘cd Desktop/project’. Once you’ve reached your preferred folder you can press enter. 
@@ -41,14 +41,20 @@ instead of the brackets [] place your link instead. This will copy the repositor
 Now you’re going to want to open the folder with your preferred IDE. [VScode](https://code.visualstudio.com) is a popular option that has a lot of good features and has many extensions to make coding better. 
 #### What to Do With Source Code
 You can now explore and run the code for yourself locally on your machine. Your edits will be personal to your local download, for now. 
-You can:
-- add features
-- fix bugs
-- create documentation
-- curate examples of the project's uses
-- restructure laylout for usability 
 
-#### Next Step
+Contributing doesn't have to be just code. 
+
+You can:
+- Add features
+- Fix bugs
+- Create documentation
+- Curate examples of the project's uses
+- Restructure layout for usability
+- Fix typos
+- Answer questions about the project
+- Start a newsletter
+
+#### Next Steps
 Before you push your changes to the main repository you’ll need to understand workflow and communication within an open source project.
  
 
