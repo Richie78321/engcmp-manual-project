@@ -36,7 +36,7 @@ The next command is
 ```shell
 git clone [link] 
 ``` 
-instead of the brackets [] place your link instead. This will copy the repository files into the folder you had selected with the cd command. 
+instead of the brackets [] place your link instead. This will copy the repository files into the folder you had selected with the 'cd' command. 
 
 Now you’re going to want to open the folder with your preferred IDE. [VScode](https://code.visualstudio.com) is a popular option that has a lot of good features and has many extensions to make coding better. 
 ### What to Do With Source Code
@@ -56,14 +56,71 @@ You can:
 
 Your contributions to an open source project can start small  but, everything helps. Creating documentation can help new contributors better understand what they are looking at within the source code. You can document source code by creading full docuemntation sites or just add comments in the code to explain different methods and parts of it.
 
-### Next Steps
 Before you push your changes to the main repository you’ll need to understand workflow and communication within an open source project.
  
 ### Workflow
 
 Workflow allows the contributors and owners to maintain a good idea of what is happening as the project evolves over time. This is very imporant for large projects; however, even for small projects it can be good to establish good workflow habits. 
 
-Git offers a few ways to 
+Git offers a few ways to organize your work. The most important is branches, pull requests and, push requests.
+
+When you're ready to start contributing, it will help to create a fork of the main project's repository. This fork will be a copy of the repository. You can do this within the particular website hosting the repository. This is important because if you are new to project you will not have permissions to make a branches and merges. 
+
+Now, you're gonna want to clone that fork. 
+``` shell
+git clone [link to your fork]
+```
+
+### Branches
+
+Branches allow you to seperate your edits from the master repository. Organizing the project with branches allows you to implement new features without conflciting with the master branch.
+
+To branch in a repository you are a contriutor to, you can do:
+```shell
+git branch [branch name]
+```
+Naming your branch well can help with organization. For example, you can name the branch the name of the feature you're implementing. You can make multiple branches for all your different features.
+
+To check your branches and which branch you're in you can use:
+```shell
+git branch
+```
+The output will look like this:
+```shell
+*branch1
+branch2
+master
+```
+The asterisks will denote the branch you are currently editing in. To change the branch you're in you do:
+```shell
+git checkout [branch name]
+```
+
+To learn more about branching and version control with git commands [visit here](https://learngitbranching.js.org)
+
+### Pull/Merge requests
+
+Once you've made a change, it's time to submit your changes to your own fork. To do this you're going to push your changes to your fork. To do this you can do:
+```shell
+git add [file name]
+git push [message]
+```
+Git in the shell/terminal can get confusing, VScode has extentions to make this easier. Now that your changes to your fork have been pushed to your fork, you can make a pull request to the main repository.
+
+I will use Github as an example. On the repository page for the project, you will be able to open a pull request to the project page to ask them to merge your work into the main repository.
+
+Then you'll see all of the differences between your fork and the main repository. The subject line of your pull request should be relevant to what your changes were. If the feature you're implmenting is still a work in progress you can label it with '*WIP*' which stands for 'Work in Progress'.
+
+Many projects will have a section in their README about how to contribute and if they certain instructions but in general, you'll want to include before and after screenshots if you made changes to a projects front-end and give detailed descriptions of the changes you have made. If you do coding on the project its good to leave lots of comments and use general syntax conventions for the language. Projects may outline this in their README or in their source code. If not, always maintain the same conventions as the source code uses. For example, camelCase, PascalCase or snake_case. 
+
+Finally, to update your local fork you can type the command:
+``` shell
+git pull
+```
+
+Forking, Branching, Pushing and Pulling are all the things you and other contributors will use to maintain an organized workflow on a project. You can read through other peoples forks, branches and requests as well and make comments and find issues. The review process is the largest collaboration on a project.
+
+Once you have contributed to a project, maybe you'd like to solve an issue yourself and start your own project. To learn how, read on.
 
 ## Maintaining an Open Source Project
 
