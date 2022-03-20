@@ -120,6 +120,12 @@ git pull
 
 Forking, Branching, Pushing and Pulling are all the things you and other contributors will use to maintain an organized workflow on a project. You can read through other peoples forks, branches and requests as well and make comments and find issues. The review process is the largest collaboration on a project.
 
+### Communication
+
+It is best to communicate with the project community about your work. You can do this by reading the README and joining/subscribing to any discord servers or newletters. Some larger projects even have monthly Zoom meetings where you can learn more about the project direction and development. 
+
+These projects will also have places to host conversation about the project. A Discord server, Subreddit or posts on StackOverflow for example. Here is where you can engage with the community members.
+
 Once you have contributed to a project, maybe you'd like to solve an issue yourself and start your own project. To learn how, read on.
 
 ## Maintaining an Open Source Project
