@@ -54,8 +54,17 @@ You can:
 - Answer questions about the project
 - Start a newsletter
 
+Your contributions to an open source project can start small  but, everything helps. Creating documentation can help new contributors better understand what they are looking at within the source code. You can document source code by creading full docuemntation sites or just add comments in the code to explain different methods and parts of it.
+
 #### Next Steps
 Before you push your changes to the main repository you’ll need to understand workflow and communication within an open source project.
  
+### Workflow
+
+Workflow allows the contributors and owners to maintain a good idea of what is happening as the project evolves over time. This is very imporant for large projects; however, even for small projects it can be good to establish good workflow habits. 
+
+Git offers a few ways to 
+
+
 
 # Maintaining an Open Source Project
