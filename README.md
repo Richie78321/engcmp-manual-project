@@ -1,6 +1,8 @@
 # A Guide to Open Source
- 
-#### An open source manual for contributing to or maintaining an open source project.
+  
+<p align="center">
+    An open source manual for contributing to or maintaining an open source project.
+</p>
 
 ![FOSS](http://www.ictworks.org/wp-content/uploads/2017/06/open-source-640x440.png)
 
