@@ -1,10 +1,10 @@
-# A Guide to Open Source
+# A Guide to Open-Source
 
-An open source manual for contributing to or maintaining an open source project.
+An open-source manual for contributing to or maintaining an Open-Source project.
 
-## Finding an Open Source Project
+## Finding an Open-Source Project
 
-## Contributing to an Open Source Project
+## Contributing to an Open-Source Project
 
 Once you find an issue or project that you'd like to contribute to, it's time to learn how exactly you can go about contributing. The first step to contributing is exploring the source code. Source code is the original code for the project made and maintained by the creator. This is the official version of the project’s code.
 ### Licensing
@@ -129,22 +129,22 @@ These projects will also have places to host conversations about the project. A 
 
 Once you have contributed to a project, maybe you'd like to solve an issue yourself and start your project. To learn how; read on.
 
-## Maintaining an Open Source Project
+## Maintaining an Open-Source Project
 
-Maintaining an open source project requires engaging with users and building a strong developer community. This means building an attractive product, a welcoming community, and a strong leadership.
+Maintaining an Open-Source project requires engaging with users and building a strong developer community. This means building an attractive product, a welcoming community, and strong leadership.
 
 ### Documenting your Project
 
-Documentation is an integral part of building an open source project. It helps users understand and interact with your project, and it helps contributors make efficient and meaningful changes. As your project grows, documentation pulls information and ideas out of your head and into a reproducible, accessible format.
+Documentation is an integral part of building an Open-Source project. It helps users understand and interact with your project, and it helps contributors make efficient and meaningful changes. As your project grows, documentation pulls information and ideas out of your head and into a reproducible, accessible format.
 
 #### Product Documentation
 
-The first type of documentation necessary for an open source project is **product documentation**. Product documentation intends to educate both users and contributors about the project and what is being built. This information should be placed into the project's **README**, which is a [markdown](https://en.wikipedia.org/wiki/Markdown) file entitled `README.md` that exists in the root directory of the project. The product documentation should cover the following:
+The first type of documentation necessary for an Open-Source project is **product documentation**. Product documentation intends to educate both users and contributors about the project and what is being built. This information should be placed into the project's **README**, which is a [markdown](https://en.wikipedia.org/wiki/Markdown) file entitled `README.md` that exists in the root directory of the project. The product documentation should cover the following:
 
 1. What the product is and why it's important (what problems it solves, how it is better than existing solutions)
    * This is your chance to grab the attention of potential users and contributors. The gist of your project should only be a few sentences and should appear at the very beginning of your README.
 2. What the future of the product is (planned maintenance, planned features)
-   * For people to rely on your product, they must be confident that it will be maintained in the future. You should clearly communicate your plans for supporting different versions of your product.
+   * For people to rely on your product, they must be confident that it will be maintained in the future. You should communicate your plans for supporting different versions of your product.
    * Planned features should be listed in a simple roadmap. This not only demonstrates your future intent to users but could attract contributors.
 3. How to use the product (installation, quick start, and common usages)
    * The installation guide should take the form of clear, concise, step-by-step instructions.
@@ -166,8 +166,8 @@ Contributors are the lifeblood of your project, so writing good documentation fo
 2. What you're looking for in contributions
    * Unwanted contributions can happen, so this section should indicate directly what kinds of contributions your project is looking for. This helps avoid wasted effort and frustration.
 3. How to contribute (finding an issue, making an effective pull request)
-   * Should include a step-by-step guide to finding an issue and identifying issues that are beginner friendly.
-   * How to write the PR description and what information to include
+   * Should include a step-by-step guide to finding an issue and identifying beginner-friendly issues.
+   * How to write the pull-request (PR) description and what information to include
 4. How to write an issue / report a bug
    * How to write the issue description and what information to include
 
@@ -188,3 +188,9 @@ Building an inviting, friendly, and engaging development environment will encour
    * Mentorship also can help new contributors overcome the anxieties related to contributing.
 3. Central communication
    * Central communication channels like mailing lists or weekly developer meetings will help contributors stay engaged with your project
+
+### Notes
+* We should add a conclusion paragraph.
+* Add section about taking people's own projects
+   * if you don't like the direction you can do what you want with it within the license
+* 
