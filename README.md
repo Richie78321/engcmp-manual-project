@@ -71,7 +71,7 @@ Now, you're gonna want to clone that fork.
 git clone <link to your fork>
 ```
 
-### Branches
+#### Branches
 
 Branches allow you to separate your edits from the master repository. Organizing the project with branches allows you to implement new features without conflicting with the master branch.
 
@@ -98,7 +98,7 @@ git checkout <branch name>
 
 To learn more about branching and version control with git commands [visit here](https://learngitbranching.js.org)
 
-### Pull/Merge requests
+#### Pull/Merge requests
 
 Once you've made a change, it's time to submit your changes to your fork. To do this you're going to push your changes to your fork. To do this you can do:
 ```shell
