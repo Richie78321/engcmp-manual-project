@@ -243,7 +243,3 @@ Building an inviting, friendly, and engaging development environment will encour
 3. Central communication
    * Central communication channels like mailing lists or weekly developer meetings will help contributors stay engaged with your project
 
-### Notes
-* We should add a conclusion paragraph.
-* Add section about taking people's own projects
-   * if you don't like the direction you can do what you want with it within the license
