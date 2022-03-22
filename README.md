@@ -2,6 +2,7 @@
  
 #### An open source manual for contributing to or maintaining an open source project.
 
+![FOSS](http://www.ictworks.org/wp-content/uploads/2017/06/open-source-640x440.png)
 
 ## Introduction
 
