@@ -28,17 +28,17 @@ Go to the repository page of the project you are interested in. There will be a 
 Click the ‘CODE’ button and find the link to the repository. Copy this link onto your clipboard. Then you're going to want to open your command line or terminal. This depends on your Operating System. macOS and Linux use the Unix shell and Windows use the Command Prompt. The process is the same for both. 
 
 __Example__
-![Example of code button on Github](/images/github-example.png "Example on Github")
+![Example of code button on GitHub](/images/github-example.png "Example on Github")
 
 Open your OS’s shell. You’re going to want to change directories (folders) to where you want to put the project folder. To do this type ‘cd’ then the subsequent folders. For example, if you want to put it on your desktop, you can input ‘cd Desktop’. If you have a folder on your desktop you’d like to put it in you can do ‘cd Desktop/project’. Once you’ve reached your preferred folder you can press enter. 
 
 The next command is 
 ```shell
 git clone <link> 
-``` 
+```
 instead of the brackets <> place your link instead. This will copy the repository files into the folder you had selected with the 'cd' command. 
 
-Now you’re going to want to open the folder with your preferred IDE. [VScode](https://code.visualstudio.com) is a popular option that has a lot of good features and has many extensions to make coding better. 
+Now you’re going to want to open the folder with your preferred IDE. [VSCode](https://code.visualstudio.com) is a popular option that has a lot of good features and has many extensions to make coding better. 
 ### What to Do With Source Code
 You can now explore and run the code for yourself locally on your machine. Your edits will be personal to your local download, for now. 
 
@@ -57,7 +57,7 @@ You can:
 Your contributions to an open-source project can start small but everything helps. Creating documentation can help new contributors better understand what they are looking at within the source code. You can document source code by creating full documentation sites or just add comments in the code to explain different methods and parts of it.
 
 Before you push your changes to the main repository you’ll need to understand workflow and communication within an open-source project.
- 
+
 ### Workflow
 
 Workflow allows the contributors and owners to maintain a good idea of what is happening as the project evolves. This is very important for large projects; however, even for small projects, it can be good to establish good workflow habits. 
@@ -105,9 +105,9 @@ Once you've made a change, it's time to submit your changes to your fork. To do 
 git add <file name>
 git push <message>
 ```
-Git in the shell/terminal can get confusing, VScode has extensions to make this easier. Now that your changes to your fork have been pushed to your fork, you can make a pull request to the main repository.
+Git in the shell/terminal can get confusing, VSCode has extensions to make this easier. Now that your changes to your fork have been pushed to your fork, you can make a pull request to the main repository.
 
-I will use Github as an example. On the repository page for the project, you will be able to open a pull request to the project page to ask them to merge your work into the main repository.
+I will use GitHub as an example. On the repository page for the project, you will be able to open a pull request to the project page to ask them to merge your work into the main repository.
 
 Then you'll see all of the differences between your fork and the main repository. The subject line of your pull request should be relevant to what your changes were. If the feature you're implementing is still a work in progress you can label it with '*WIP*' which stands for 'Work in Progress'.
 
