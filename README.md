@@ -1,4 +1,4 @@
-<font size="+3">
+<font size="+20">
     <p align="center">
         A Guide to Open Source
     </p>
