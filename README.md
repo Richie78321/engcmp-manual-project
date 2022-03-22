@@ -1,6 +1,6 @@
 # A Guide to Open Source
-  
-#### An open source manual for contributing to or maintaining an open source project.
+
+**An open source manual for contributing to or maintaining an open source project.**
 
 
 ![FOSS](http://www.ictworks.org/wp-content/uploads/2017/06/open-source-640x440.png)
@@ -9,29 +9,25 @@
 
 
 ### What is FOSS?
-Free and Open Source Software is Software that is released under the license and copyright by the owner; 
-it allows people to modify, use, and distribute the author’s source code.
+**FOSS** stands for "**free and open source software**". FOSS is software released under a permissive license and copyright defined by the owner that allows people to modify, use, and distribute the author’s source code. // TODO(Kavin): This is not always true. Some open source licenses restrict the ability to distribute. Maybe this can be clearer?
 
-This is different from proprietary software as 
-it is free and the source code can be edited by the user. 
-Many times the users contribute to the software by fixing bugs, implementing new features, and 
-testing the software for the owner.
+Open source software is free and the source code can be edited by the user. which is not the case for most **proprietary software**. Many times the users contributes to the software by fixing bugs, implementing new features, and testing the software for the owner. // TODO(Kavin): This is also not always true. Some proprietary software is free.
 
 
-### Git vs. Github
-Git is a simple program to track the changes made in a project's code files. Github is a website that hosts repositories of code.
+### Git vs. GitHub
+Git is a **version control software** used to track the changes made to a project's source code. It maintains a record of the changes made to source code in a **Git repository**. GitHub is a website that hosts Git repositories on the internet for easy collaboration.
 
 
 ### ReadMe’s and Licenses
-ReadMe and Licenses outline the rules of using software. Many ReadMes have an overview of the software,
+ReadMe's and Licenses outline the rules of using software. Many ReadMes have an overview of the software,
 a tutorial on how to install and run it and how to contribute to it if applicable. 
 
-For larger projects, they will have a code of conduct as well. 
+For larger projects, they will have a code of conduct as well. // TODO(Kavin): Sort out newlines in markdown
 Licenses are the legal copyright of the code. 
 They outline whether the code can be redistributed under a new license or sold.
 
 
-### Why Should you Contribute?
+### Why Should You Contribute?
 There are many reasons to contribute to open source projects! Finding something you are 
 interested in and contributing code can be beneficial. 
 This is a great way to gain experience and technical skills.
@@ -40,23 +36,25 @@ Contributing to open source projects can also help you find or grow a community 
 Contributors such as yourself are key in improving software development no matter how small your contributions are. 
 You get to test new technologies, share and receive feedback, and communicate knowledge.
 
+// TODO(Kavin): Make this into a list
 
-### What are you Interested in?
+
+### How to Find Something that Interests You?
 This may seem obvious but the first step in contributing to open source projects is to find something 
 you are interested in. If this is your first time contributing, 
-it is recommended that you find a small project that is easy to understand.
+it is recommended that you find a small project that is easy to understand. //TODO(Kavin): Elaborate.
 
 Smaller projects mean less code which also gives you more freedom on what you want to contribute. 
 This can be a new feature for an app, a better website structure, or a small fix on a program.
 
 
 ### Finding an Issue
-Finding a project that is small and tackable can be quite difficult for a first-time contributor. 
-Finding an issue (without knowing whether there is one or not) can be even more daunting.
+Finding a project that is small and trackable can be quite difficult for a first-time contributor.
+Finding an issue (without knowing whether there is one or not) can be even more daunting. // TODO(Kavin): Make sure to differentiate between finding an issue *on GitHub* and finding an issue in the source code yourself. Seems like they're getting mixed together.
 
 Fortunately, there are many great websites that do this for you and contain a collective list 
-of various repo’s that have issues. [First timers only]("https://www.firsttimersonly.com/") is one such website that lists a culmination 
-of other websites that contain numerous open source projects.
+of various repo’s that have issues. [First Timers Only]("https://www.firsttimersonly.com/") is one such website that lists a culmination 
+of other websites that contain numerous open source projects. // TODO(Kavin): I'd maybe pick one of those featured websites to elaborate on instead. Find one that lists beginner-friendly issues (there are a few on that page).
 
 
 ## Contributing to an Open Source Project
