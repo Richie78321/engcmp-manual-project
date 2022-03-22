@@ -1,13 +1,7 @@
-<font size="+20">
-    <p align="center">
-        A Guide to Open Source
-    </p>
-</font>
+# A Guide to Open Source
+ 
+#### An open source manual for contributing to or maintaining an open source project.
 
-
-<p align="center">
-    An open source manual for contributing to or maintaining an open source project.
-</p>
 
 
 ## Introduction
