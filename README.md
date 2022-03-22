@@ -6,6 +6,10 @@
 
 ## Introduction
 
+<p align="center">
+    Your content
+</p>
+
 ### What is FOSS?
 Free and Open Source Software is Software that is released under the license and copyright by the owner; 
 it allows people to modify, use, and distribute the author’s source code.
