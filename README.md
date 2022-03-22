@@ -57,22 +57,3 @@ Finding an issue (without knowing whether there is one or not) can be even more 
 Fortunately, there are many great websites that do this for you and contain a collective list 
 of various repo’s that have issues. [First timers only]("https://www.firsttimersonly.com/") is one such website that lists a culmination 
 of other websites that contain numerous open source projects.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
