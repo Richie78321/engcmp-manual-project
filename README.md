@@ -131,15 +131,15 @@ Once you have contributed to a project, maybe you'd like to solve an issue yours
 
 ## Maintaining an Open-Source Project
 
-Maintaining an Open-Source project requires engaging with users and building a strong developer community. This means building an attractive product, a welcoming community, and strong leadership.
+Maintaining an open-source project requires engaging with users and building a strong developer community. This means building an attractive product, a welcoming community, and strong leadership.
 
 ### Documenting your Project
 
-Documentation is an integral part of building an Open-Source project. It helps users understand and interact with your project, and it helps contributors make efficient and meaningful changes. As your project grows, documentation pulls information and ideas out of your head and into a reproducible, accessible format.
+Documentation is an integral part of building an open-source project. It helps users understand and interact with your project, and it helps contributors make efficient and meaningful changes. As your project grows, documentation pulls information and ideas out of your head and into a reproducible, accessible format.
 
 #### Product Documentation
 
-The first type of documentation necessary for an Open-Source project is **product documentation**. Product documentation intends to educate both users and contributors about the project and what is being built. This information should be placed into the project's **README**, which is a [markdown](https://en.wikipedia.org/wiki/Markdown) file entitled `README.md` that exists in the root directory of the project. The product documentation should cover the following:
+The first type of documentation necessary for an open-source project is **product documentation**. Product documentation intends to educate both users and contributors about the project and what is being built. This information should be placed into the project's **README**, which is a [markdown](https://en.wikipedia.org/wiki/Markdown) file entitled `README.md` that exists in the root directory of the project. The product documentation should cover the following:
 
 1. What the product is and why it's important (what problems it solves, how it is better than existing solutions)
    * This is your chance to grab the attention of potential users and contributors. The gist of your project should only be a few sentences and should appear at the very beginning of your README.
