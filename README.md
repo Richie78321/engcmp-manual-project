@@ -9,9 +9,9 @@
 
 
 ### What is FOSS?
-**FOSS** stands for "**free and open source software**". FOSS is software released under a permissive license and copyright defined by the owner that allows people to modify, use, and distribute the author’s source code. // TODO(Kavin): This is not always true. Some open source licenses restrict the ability to distribute. Maybe this can be clearer?
+**FOSS** stands for "**free and open source software**". FOSS is software released under a permissive license and copyright defined by the owner that allows people to modify, use, and distribute (depending on the license) the author’s source code. 
 
-Open source software is free and the source code can be edited by the user. which is not the case for most **proprietary software**. Many times the users contributes to the software by fixing bugs, implementing new features, and testing the software for the owner. // TODO(Kavin): This is also not always true. Some proprietary software is free.
+Open source software is free and the source code can be edited by the user, which is not the case for most **proprietary software**. Many times the users contributes to the software by fixing bugs, implementing new features, and testing the software for the owner. 
 
 
 ### Git vs. GitHub
@@ -19,12 +19,9 @@ Git is a **version control software** used to track the changes made to a projec
 
 
 ### ReadMe’s and Licenses
-ReadMe's and Licenses outline the rules of using software. Many ReadMes have an overview of the software,
-a tutorial on how to install and run it and how to contribute to it if applicable. 
+ReadMe's and Licenses outline the rules of using software. For larger projects, they will have a code of conduct as well. Many ReadMes have an overview of the software, a tutorial on how to install and run it and how to contribute to it if applicable. 
 
-For larger projects, they will have a code of conduct as well. // TODO(Kavin): Sort out newlines in markdown
-Licenses are the legal copyright of the code. 
-They outline whether the code can be redistributed under a new license or sold.
+Licenses are the legal copyright of the code. They outline whether the code can be redistributed under a new license or sold.
 
 
 ### Why Should You Contribute?
@@ -34,31 +31,27 @@ This is a great way to gain experience and technical skills.
 
 Contributing to open source projects can also help you find or grow a community consisting of like-minded developers!
 Contributors such as yourself are key in improving software development no matter how small your contributions are. 
-You get to test new technologies, share and receive feedback, and communicate knowledge.
-
-// TODO(Kavin): Make this into a list
-
+You get to:
+- test new technologies
+- share and receive feedback
+- communicate knowledge.
 
 ### How to Find Something that Interests You?
 This may seem obvious but the first step in contributing to open source projects is to find something 
 you are interested in. If this is your first time contributing, 
-it is recommended that you find a small project that is easy to understand. //TODO(Kavin): Elaborate.
-
-Smaller projects mean less code which also gives you more freedom on what you want to contribute. 
-This can be a new feature for an app, a better website structure, or a small fix on a program.
-
+it is recommended that you find a small project that is easy to contribute to; they have less complexity and are more approachable than big projects.
 
 ### Finding an Issue
 Finding a project that is small and trackable can be quite difficult for a first-time contributor.
-Finding an issue (without knowing whether there is one or not) can be even more daunting. // TODO(Kavin): Make sure to differentiate between finding an issue *on GitHub* and finding an issue in the source code yourself. Seems like they're getting mixed together.
+Finding a project that has issues (without knowing whether there is one or not) can be even more daunting. 
 
 Fortunately, there are many great websites that do this for you and contain a collective list 
 of various repo’s that have issues. [First Timers Only]("https://www.firsttimersonly.com/") is one such website that lists a culmination 
-of other websites that contain numerous open source projects. // TODO(Kavin): I'd maybe pick one of those featured websites to elaborate on instead. Find one that lists beginner-friendly issues (there are a few on that page).
+of other websites that contain numerous open source projects. 
 
+One such website on First Timers Only is [Code Triage]("https://www.codetriage.com/") that lets you find projects based a language of your choice. The projects are color coded which reflects the complexity. Red means the project is large with thousands of issues while green means that a project is small with few bugs. Simply click a project of your choice and follow the steps (the project bugs will be sent directly to your email).
 
 ## Contributing to an Open Source Project
-
 Once you find an issue or project that you'd like to contribute to, it's time to learn how exactly you can go about contributing. The first step to contributing is exploring the source code. Source code is the original code for the project made and maintained by the creator. This is the official version of the project’s code.
 ### Licensing
 Depending on the licensing of the code it will tell you what you can do with the source code. This could determine whether you can sell your version or publish it. 
