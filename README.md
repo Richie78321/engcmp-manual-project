@@ -46,10 +46,10 @@ Finding a project that is small and trackable can be quite difficult for a first
 Finding a project that has issues (without knowing whether there is one or not) can be even more daunting. 
 
 Fortunately, there are many great websites that do this for you and contain a collective list 
-of various repo’s that have issues. [First Timers Only]("https://www.firsttimersonly.com/") is one such website that lists a culmination 
+of various repo’s that have issues. [First Timers Only](https://www.firsttimersonly.com/) is one such website that lists a culmination 
 of other websites that contain numerous open source projects. 
 
-One such website on First Timers Only is [Code Triage]("https://www.codetriage.com/") that lets you find projects based a language of your choice. The projects are color coded which reflects the complexity. Red means the project is large with thousands of issues while green means that a project is small with few bugs. Simply click a project of your choice and follow the steps (the project bugs will be sent directly to your email).
+One such website on First Timers Only is [Code Triage](https://www.codetriage.com/) that lets you find projects based a language of your choice. The projects are color coded which reflects the complexity. Red means the project is large with thousands of issues while green means that a project is small with few bugs. Simply click a project of your choice and follow the steps (the project bugs will be sent directly to your email).
 
 ## Contributing to an Open Source Project
 Once you find an issue or project that you'd like to contribute to, it's time to learn how exactly you can go about contributing. The first step to contributing is exploring the source code. Source code is the original code for the project made and maintained by the creator. This is the official version of the project’s code.
