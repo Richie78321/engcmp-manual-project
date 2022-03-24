@@ -1,44 +1,104 @@
 # A Guide to Open Source
 
-An open source manual for contributing to or maintaining an open source project.
+**An open source manual for contributing to or maintaining an open source project.**
 
-## Finding an Open Source Project
+
+![FOSS](http://www.ictworks.org/wp-content/uploads/2017/06/open-source-640x440.png)
+
+## Introduction
+
+
+### What is FOSS?
+**FOSS** stands for "**free and open source software**". FOSS is software released under a permissive license and copyright defined by the owner that allows people to modify, use, and distribute (depending on the license) the author’s source code. 
+
+Open source software is free and the source code can be edited by the user, which is not the case for most **proprietary software**. Many times the users contributes to the software by fixing bugs, implementing new features, and testing the software for the owner. 
+
+
+### Git vs. GitHub
+Git is a **version control software** used to track the changes made to a project's source code. It maintains a record of the changes made to source code in a **Git repository**. GitHub is a website that hosts Git repositories on the internet for easy collaboration.
+
+
+### ReadMe’s and Licenses
+ReadMe's and Licenses outline the rules of using software. For larger projects, they will have a code of conduct as well. Many ReadMes have an overview of the software, a tutorial on how to install and run it and how to contribute to it if applicable. 
+
+Licenses are the legal copyright of the code. They outline whether the code can be redistributed under a new license or sold.
+
+
+### Why Should You Contribute?
+There are many reasons to contribute to open source projects! Finding something you are 
+interested in and contributing code can be beneficial. 
+This is a great way to gain experience and technical skills.
+
+Contributing to open source projects can also help you find or grow a community consisting of like-minded developers!
+Contributors such as yourself are key in improving software development no matter how small your contributions are. 
+You get to:
+- test new technologies
+- share and receive feedback
+- communicate knowledge.
+
+### How to Find Something that Interests You?
+This may seem obvious but the first step in contributing to open source projects is to find something 
+you are interested in. If this is your first time contributing, 
+it is recommended that you find a small project that is easy to contribute to; they have less complexity and are more approachable than big projects.
+
+### Finding an Issue
+Finding a project that is small and trackable can be quite difficult for a first-time contributor.
+Finding a project that has issues (without knowing whether there is one or not) can be even more daunting. 
+
+Fortunately, there are many great websites that do this for you and contain a collective list 
+of various repo’s that have issues. [First Timers Only](https://www.firsttimersonly.com/) is one such website that lists a culmination 
+of other websites that contain numerous open source projects. 
+
+One such website on First Timers Only is [Code Triage](https://www.codetriage.com/) that lets you find projects based a language of your choice. The projects are color coded which reflects the complexity. Red means the project is large with thousands of issues while green means that a project is small with few bugs. Simply click a project of your choice and follow the steps (the project bugs will be sent directly to your email).
 
 ## Contributing to an Open-Source Project
+Once you find an issue or a project that you'd like to contribute to, it's time to learn how exactly you can go about contributing. 
+The first step to contributing is exploring the source code. Source code is the original code for the project made and maintained by the creator. This is the official version of the project’s code.
 
-Once you find an issue or project that you'd like to contribute to, it's time to learn how exactly you can go about contributing. The first step to contributing is exploring the source code. Source code is the original code for the project made and maintained by the creator. This is the official version of the project’s code.
 ### Licensing
-Depending on the licensing of the code it will tell you what you can do with the source code. This could determine whether you can sell your version or publish it. 
+Depending on the licensing of the code, it will tell you what you can do with the source code. 
+This could determine whether you can sell your version or publish it. 
 
 Many open-source projects are what is called copyleft. This means that you must maintain the same licensing on your project as the main project. Once you understand what you're allowed to do, it's time to explore.
 
 ### Getting Source Code
-You're going to want to create a local copy of the project you'd like to contribute to on your machine. This is the best way to explore the code and test the project for yourself. 
+You're going to want to create a local copy of the project you'd like to contribute to on your machine. 
+This is the best way to explore the code and test the project for yourself. 
 
 ### Git
-First, you’re going to want to install git. To do this, follow these links depending on your OS
+First, you’re going to want to install git. To do this, follow these links depending on your Operating System.
 
 - Windows: https://git-for-windows.github.io/
 - macOS: https://code.google.com/archive/p/git-osx-installer/downloads
 - Linux: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 ### Cloning a Repository
-Go to the repository page of the project you are interested in. There will be a button labeled code or clone. This depends on the repository site you are using. [GitHub](https://github.com) for example will have a green ‘CODE’ button. For example, click the green octo-cat in the upper right-hand corner of this page to check out the repository for this project. 
+Go to the repository page of the project you are interested in. There will be a button labeled 'code' or 'clone'. 
 
-Click the ‘CODE’ button and find the link to the repository. Copy this link onto your clipboard. Then you're going to want to open your command line or terminal. This depends on your Operating System. macOS and Linux use the Unix shell and Windows use the Command Prompt. The process is the same for both. 
+This depends on the repository site you are using. [GitHub](https://github.com) for example will have a green ‘CODE’ button. 
+You can click the green octo-cat in the upper right-hand corner of this page to check out the repository for this project. 
+
+Click the ‘CODE’ button and find the link to the repository. Copy this link onto your clipboard. 
+Then you're going to want to open your command line/terminal. This depends on your operating system. MacOS and Linux use the Unix shell and Windows uses the Command Prompt. The process is the same for both.
 
 __Example__
-![Example of code button on Github](/images/github-example.png "Example on Github")
+![Example of code button on GitHub](/images/github-example.png "Example on Github")
 
-Open your OS’s shell. You’re going to want to change directories (folders) to where you want to put the project folder. To do this type ‘cd’ then the subsequent folders. For example, if you want to put it on your desktop, you can input ‘cd Desktop’. If you have a folder on your desktop you’d like to put it in you can do ‘cd Desktop/project’. Once you’ve reached your preferred folder you can press enter. 
+Open your OS’s shell. You’re going to want to change directories (folders) to where you want to put the project folder. 
+
+To do this type ‘cd’ then the subsequent folders. For example, if you want to put it on your desktop, you can input ‘cd Desktop’. If you have a folder on your desktop you’d like to put it in you can do ‘cd Desktop/project’. Once you’ve reached your preferred folder you can press enter. 
+```shell
+cd Desktop/project
+```
 
 The next command is 
 ```shell
 git clone <link> 
 ``` 
-instead of the brackets <> place your link instead. This will copy the repository files into the folder you had selected with the 'cd' command. 
+instead of the brackets <>, place your link instead. This will copy the repository files into the folder you had selected with the 'cd' command. 
 
-Now you’re going to want to open the folder with your preferred IDE. [VScode](https://code.visualstudio.com) is a popular option that has a lot of good features and has many extensions to make coding better. 
+Now you’re going to want to open the folder with your preferred IDE. [VScode](https://code.visualstudio.com) is a popular option that has a lot of good features and has many extensions to make coding better.
+
 ### What to Do With Source Code
 You can now explore and run the code for yourself locally on your machine. Your edits will be personal to your local download, for now. 
 
@@ -57,14 +117,18 @@ You can:
 Your contributions to an open-source project can start small but everything helps. Creating documentation can help new contributors better understand what they are looking at within the source code. You can document source code by creating full documentation sites or just add comments in the code to explain different methods and parts of it.
 
 Before you push your changes to the main repository you’ll need to understand workflow and communication within an open-source project.
- 
+
 ### Workflow
 
-Workflow allows the contributors and owners to maintain a good idea of what is happening as the project evolves. This is very important for large projects; however, even for small projects, it can be good to establish good workflow habits. 
+Workflow allows the contributors and owners to maintain a good idea of what is happening as the project evolves. 
+
+This is very important for large projects; however, even for small projects, it can be good to establish good workflow habits. 
 
 Git offers a few ways to organize your work. The most important are branches, pull requests, and push requests.
 
-When you're ready to start contributing, it will help to create a fork of the main project's repository. This fork will be a copy of the repository. You can do this within the particular website hosting the repository. This is important because if you are new to a project you will not have permission to make branches and merges. 
+When you're ready to start contributing, it will help to create a fork of the main project's repository. 
+
+This fork will be a copy of the repository. You can do this within the particular website hosting the repository. This is important because if you are new to a project you will not have permission to make branches and merges. You will see a button on the repository page that says 'fork' for you to press.
 
 Now, you're gonna want to clone that fork. 
 ``` shell
@@ -105,13 +169,13 @@ Once you've made a change, it's time to submit your changes to your fork. To do 
 git add <file name>
 git push <message>
 ```
-Git in the shell/terminal can get confusing, VScode has extensions to make this easier. Now that your changes to your fork have been pushed to your fork, you can make a pull request to the main repository.
+Git in the shell/terminal can get confusing; VScode has extensions to make this easier. Now that your changes to your fork have been pushed, you can make a pull request to the main repository.
 
-I will use Github as an example. On the repository page for the project, you will be able to open a pull request to the project page to ask them to merge your work into the main repository.
+I will use GitHub as an example. On the repository page for the project, you will be able to open a pull request to the project page to ask them to merge your work into the main repository.
 
-Then you'll see all of the differences between your fork and the main repository. The subject line of your pull request should be relevant to what your changes were. If the feature you're implementing is still a work in progress you can label it with '*WIP*' which stands for 'Work in Progress'.
+Then you'll see all the differences between your fork and the main repository. The subject line of your pull request should be relevant to what your changes were. If the feature you're implementing is still a work in progress, you can label it with '*WIP*' which stands for 'Work in Progress'.
 
-Many projects will have a section in their README about how to contribute and if they have certain instructions but in general, you'll want to include before and after screenshots if you made changes to the front-end of a project and give detailed descriptions of the changes you have made. If you do coding on the project its good to leave lots of comments and use general syntax conventions for the language. Projects may outline this in their README or their source code. If not, always maintain the same conventions as the source code uses. For example, camelCase, PascalCase, or snake_case. 
+Many projects will have a section in their README about how to contribute and if they have certain instructions. In general, you'll want to include before and after screenshots if you made changes to the front-end of a project and give detailed descriptions of the changes you have made. If you write code for the project its good to leave lots of comments and use general syntax conventions for the language. Projects may outline this in their README or their source code. If not, always maintain the same conventions as the source code uses. For example, camelCase, PascalCase, or snake_case. 
 
 Finally, to update your local fork you can type the command:
 ``` shell
